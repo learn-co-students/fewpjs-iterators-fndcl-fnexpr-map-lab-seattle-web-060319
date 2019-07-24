@@ -12,5 +12,7 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
+  let new = tutorials.map(function(quote)){
+    return quote.titleCase;
+  }
 }
